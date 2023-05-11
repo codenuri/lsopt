@@ -9,6 +9,17 @@ int main()
 	printf("결과 : %d\n", ret);
 }
 
+int add(int a, int b)
+{
+	printf("called add : %d, %d\n", a, b);
+
+	return a + b;
+}
+
+
+
+
+
 // 명령줄 : nasm -f win32 -o asm_main.obj  asm_main.asm
 
 // 출력   : asm_main.obj  
