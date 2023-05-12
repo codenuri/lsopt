@@ -17,7 +17,7 @@ int main()
 	int j = 0;
 	int find_flag = 0;
 
-	for (i = 0; i < s_size; i++)
+	for (i = 0; i < s_size - d_size + 1; i++)
 	{
 		for (j = 0; j < d_size; j++)
 		{
