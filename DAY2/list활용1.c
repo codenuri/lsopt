@@ -46,7 +46,7 @@ int main()
 		people->age = age;
 		  
 		// 이제 people 을 list 에 보관해야합니다!!
-		insert_front(&people->vipList, head);
+		insert_front(&(people->vipList), head);
 	}
 }
 
